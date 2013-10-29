@@ -1,8 +1,10 @@
 <<<<<<< HEAD
 The Servo Parallel Browser Project
 
+Note: Please use ==Linux or ==Mac ==OS only.
+
 Servo is a prototype web browser engine written in the [Rust](https://github.com/mozilla/rust)
-language. It is currently developed on 64bit OS X and 64bit Linux.
+language. It is currently developed on ==64bit ==OS ==X and ==64bit ==Linux.
 
 Servo welcomes contribution from everyone.  See
 [`CONTRIBUTING.md`](CONTRIBUTING.md) for help getting started.
