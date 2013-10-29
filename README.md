@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-The Servo Parallel Browser Project
+
+## The Servo Parallel Browser Project
 
 # Note: Please use Linux or Mac OS only.
 
