@@ -12,7 +12,7 @@ you might prefer to install a released version, following the instructions in th
 Here is the link for setting up Rust on your Computer.
 https://github.com/mozilla/rust/wiki/Note-getting-started-developing-Rust
 
-#
+##Note getting started developing Servo
 Servo is a prototype web browser engine written in the [Rust](https://github.com/mozilla/rust)
 language. It is currently developed on 64bit OS X and 64bit Linux.
 
