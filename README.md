@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 The Servo Parallel Browser Project
 
 Servo is a prototype web browser engine written in the [Rust](https://github.com/mozilla/rust)
@@ -95,3 +96,9 @@ There are lots of make targets you can use:
 - `make DEP` - builds only the specified dependency. e.g. `make rust-opengles`
 - `make check-DEP` - build and run tests for specified dependency
 
+=======
+CanvasRenderingContext2DMozilla
+===============================
+
+2D Canvas Rendering  API for Mozilla. It uses Rust Programming Language and it is built on the Servo Engine.
+>>>>>>> e13993060081a84320376b53958f8fd5c0beb216
