@@ -2,6 +2,16 @@
 
 ### Note: Please use Linux or Mac OS only.
 
+##Note getting started developing Rust
+
+This page describes how to download and build the Rust compiler and associated tools and libraries from the current git sources.
+If you're more interested in using Rust than in hacking on the Rust compiler,
+you might prefer to install a released version, following the instructions in the tutorial.
+
+Here is the link for setting up Rust on your Computer.
+https://github.com/mozilla/rust/wiki/Note-getting-started-developing-Rust
+
+
 Servo is a prototype web browser engine written in the [Rust](https://github.com/mozilla/rust)
 language. It is currently developed on 64bit OS X and 64bit Linux.
 
