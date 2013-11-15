@@ -5,12 +5,12 @@
 use dom::bindings::utils::{ErrorResult};
 use dom::htmlelement::HTMLElement;
 
-pub struct HTMLCanvasElement {
+pub struct HTMLCanvasElement {                             //Struct for HTMLCanvasElement
     htmlelement: HTMLElement,
 }
 
 impl HTMLCanvasElement {
-    pub fn Width(&self) -> u32 {
+    pub fn Width(&self) -> u32 {                                //Width of the CanvasElement
         0
     }
 
@@ -18,7 +18,7 @@ impl HTMLCanvasElement {
         Ok(())
     }
 
-    pub fn Height(&self) -> u32 {
+    pub fn Height(&self) -> u32 {                                    //Height of the CanvasElement
         0
     }
 
