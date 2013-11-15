@@ -12,7 +12,7 @@ pub struct CanvasRenderingContext2D {                           //struct contain
 
 
 impl CanvasRenderingContext2D {                                 //CanvasRenderingContext2D interface.
-    pub fn new_inherited(window: @mut Window) -> CanvasRenderingContext2D {
+    pub fn new_inherited(window: @mut Window) -> CanvasRenderingContext2D { //creating window and reflector objects.
         CanvasRenderingContext2D {
             reflector_: Reflector::new(),
             window: window,
