@@ -1,4 +1,3 @@
-
 use dom::bindings::utils::{Reflectable, Reflector, reflect_dom_object};
 use dom::bindings::utils::Fallible;
 use dom::bindings::codegen::CanvasRenderingContext2DBinding;
@@ -6,13 +5,13 @@ use dom::window::Window;
 use js::jsapi::{JSContext, JSObject};
 use dom::bindings::utils::{ErrorResult};
 
-pub struct CanvasRenderingContext2D {
+pub struct CanvasRenderingContext2D {                           //struct containing Reflector object.
     reflector_: Reflector,
     window: @mut Window,
 }
 
 
-impl CanvasRenderingContext2D {
+impl CanvasRenderingContext2D {                                 //CanvasRenderingContext2D interface.
     pub fn new_inherited(window: @mut Window) -> CanvasRenderingContext2D {
         CanvasRenderingContext2D {
             reflector_: Reflector::new(),
@@ -24,7 +23,7 @@ impl CanvasRenderingContext2D {
         reflect_dom_object(@mut CanvasRenderingContext2D::new_inherited(window), window, CanvasRenderingContext2DBinding::Wrap)
     }
 
- pub fn Width(&self) -> u32 {
+ pub fn Width(&self) -> u32 {                    //Width of the canvas
         0
     }
 
@@ -32,7 +31,7 @@ impl CanvasRenderingContext2D {
         Ok(())
     }
 
-    pub fn Height(&self) -> u32 {
+    pub fn Height(&self) -> u32 {                 //Height of the canvas
         0
     }
 
@@ -50,7 +49,7 @@ impl CanvasRenderingContext2D {
 
 
 
-impl Reflectable for CanvasRenderingContext2D {
+impl Reflectable for CanvasRenderingContext2D {           //implementing the Reflectable.
     fn reflector<'a>(&'a self) -> &'a Reflector {
         &self.reflector_
     }
