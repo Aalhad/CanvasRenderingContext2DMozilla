@@ -5,14 +5,14 @@ use dom::window::Window;
 use js::jsapi::{JSContext, JSObject};
 use dom::bindings::utils::{ErrorResult};
 
-pub struct CanvasRenderingContext2D {                           //struct containing Reflector object.
+pub struct CanvasRenderingContext2D {                         
     reflector_: Reflector,
     window: @mut Window,
 }
 
 
-impl CanvasRenderingContext2D {                                 //CanvasRenderingContext2D interface.
-    pub fn new_inherited(window: @mut Window) -> CanvasRenderingContext2D { //creating window and reflector objects.
+impl CanvasRenderingContext2D {                               
+    pub fn new_inherited(window: @mut Window) -> CanvasRenderingContext2D { 
         CanvasRenderingContext2D {
             reflector_: Reflector::new(),
             window: window,
@@ -23,7 +23,7 @@ impl CanvasRenderingContext2D {                                 //CanvasRenderin
         reflect_dom_object(@mut CanvasRenderingContext2D::new_inherited(window), window, CanvasRenderingContext2DBinding::Wrap)
     }
 
- pub fn Width(&self) -> u32 {                    //Width of the canvas
+ pub fn Width(&self) -> u32 {                    
         0
     }
 
@@ -31,7 +31,7 @@ impl CanvasRenderingContext2D {                                 //CanvasRenderin
         Ok(())
     }
 
-    pub fn Height(&self) -> u32 {                 //Height of the canvas
+    pub fn Height(&self) -> u32 {                
         0
     }
 
