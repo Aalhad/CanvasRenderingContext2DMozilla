@@ -49,7 +49,7 @@ impl CanvasRenderingContext2D {
 
 
 
-impl Reflectable for CanvasRenderingContext2D {           //implementing the Reflectable.
+impl Reflectable for CanvasRenderingContext2D {           
     fn reflector<'a>(&'a self) -> &'a Reflector {
         &self.reflector_
     }
